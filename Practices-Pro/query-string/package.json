@@ -1,0 +1,21 @@
+{
+  "name": "query-string",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-yarn": "yarn start",
+    "dev": "nodemon start-yarn"
+  },
+  "author": "Asad Anik",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "yarn": "^1.22.17"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

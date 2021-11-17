@@ -1,0 +1,14 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Creating JSON data.. just like React data to Node -->
+<script>
+    $.ajax({
+        type: "POST",
+        url: '/enteruser_json',
+        data: JSON.stringify({
+            firstname: 'Asad',
+            lastname: 'Anik'
+        }),
+        contentType: "application/json"
+    });
+</script>

@@ -1,0 +1,2 @@
+### node_modules or vendor files should not be shown anymore..
+/node_modules

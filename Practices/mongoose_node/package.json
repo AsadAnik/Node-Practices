@@ -1,0 +1,12 @@
+{
+  "name": "mongoose_node",
+  "version": "1.0.0",
+  "main": "mongoose.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node mongoose.js"
+  },
+  "dependencies": {
+    "mongoose": "^5.13.5"
+  }
+}

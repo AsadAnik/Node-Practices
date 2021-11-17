@@ -1,0 +1,4 @@
+# no need to add into git the node_modules..
+# so ignore this directory from git remote..
+/node_modules
+node_modules

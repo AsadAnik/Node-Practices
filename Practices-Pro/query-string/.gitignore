@@ -1,0 +1,2 @@
+# ignore node_modules or vendors file for github or production server
+/node_modules

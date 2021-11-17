@@ -1,0 +1,17 @@
+{
+  "name": "react_node",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "node-start": "node server.js",
+    "node-serve": "nodemon server.js",
+    "front-end": "npm run start --prefix front-end",
+    "dev": "concurrently \"npm run node-serve\" \"npm run front-end\" "
+  },
+  "dependencies": {
+    "concurrently": "^6.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
